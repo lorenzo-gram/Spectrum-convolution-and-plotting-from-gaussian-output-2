@@ -1,4 +1,4 @@
-# Spectrum-convolution-and-plotting-from-gaussian-output
+# Spectrum-convolution-and-plotting-from-gaussian-output-2
 
 This python code is useful to plot the result of one or various tddft calculations performed by Gaussian and, if needed, compare it with an experimental spectrum.  
 It works with either one output file or more output files. In both cases, for each output file indicated, the script will plot a gaussian function around each excitation (whose intensity is proportional to the oscillator strength in case of absorption and proportional to the [oscillator strength]*[emission wavelength]^2 in the case of the emission) energy and sum up all the gaussian functions.  
