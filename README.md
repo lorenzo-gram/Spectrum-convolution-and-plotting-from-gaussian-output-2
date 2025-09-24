@@ -11,7 +11,7 @@ The code can be launched directly on the command line or, for the laziest like m
 
 The code is launched with:  
 
-python3 convolution_of_spectra.py --emin 1.5 --emax 4.5 --ewid 0.15 --grdid 300 --directories './md*/OUTPUT/QM_data/qmALL.log' --title './md*' --transition 'abs' --nstates 5
+python3 convolution_of_spectra.py --emin 1.5 --emax 3.1 --ewid 0.15 --grdid 300 --directories './*/*.log' --title './*/*.log' --transition 'abs' --experimental 'exp.dat'  
 
 where:
 * --emin specifies the minimum energy to be plotted (in eV)
@@ -19,6 +19,6 @@ where:
 * --ewid 0.15 specifies the standard deviation of each gaussian function (in eV)
 * --grdid specifies the number of points in the plot of the spectrum
 * --directories specifies (in python string format) the path to the .log file(s)
-* --title specifies the path where you find the directories that will give the name to each different gaussian calculation (in this case md001, md002, md003,...)
+* --title specifies the path where you find the directories/files that will give the name to each different gaussian calculation 
 * --transition specifies if we are simulating absorption ('abs') or emission ('emi') spectrum
-* --nstates specifies the number of transitions to plot and put in the legend
+* --experimental specifies the .dat file name with the experimental spectrum (default 'None' and no experimental spectrum will be plotted)
