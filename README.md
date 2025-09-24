@@ -11,7 +11,7 @@ The code can be launched directly on the command line or, for the laziest like m
 
 The code is launched with:  
 
-python3 convolution_of_spectra.py --emin 1.5 --emax 3.1 --ewid 0.15 --grdid 300 --directories './*/*.log' --title './\*/\*.log' --transition 'abs' --experimental 'exp.dat'  
+python3 convolution_of_spectra.py --emin 1.5 --emax 3.1 --ewid 0.15 --grdid 300 --directories './\*/\*.log' --title './\*/\*.log' --transition 'abs' --experimental 'exp.dat'  
 
 where:
 * --emin specifies the minimum energy to be plotted (in eV)
